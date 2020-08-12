@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mr Muscle Gym &mdash; Contact Form</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header class="text-center">
+            <h1 id="title">Mr Muscle Gym Contact Form</h1>
+            <p id="description">Please do contact us if you have any questions about our offer</p>
+        </header>
+
+        <!-- Form -->
+        <form id="survey-form">
+
+            <!-- Text: Name -->
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email"
+                    required>
+            </div>
+
+            <!-- Number: Age -->
+            <div class="form-group">
+                <label id="number-label" for="number">Age (optional)</label>
+                <input type="number" class="form-control" name="number" id="number" placeholder="Age" min="10" max="99">
+            </div>
+
+            <!-- Radio: Gender -->
+            <div class="form-group">
+                <p>Gender</p>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input class="custom-control-input" type="radio" name="gender" id="male" value="male">
+                    <label class="custom-control-label" for="male">Male</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input class="custom-control-input" type="radio" name="gender" id="female" value="female">
+                    <label class="custom-control-label" for="female">Female</label>
+                </div>
+            </div>
+
+            <!-- Select: Acitivity -->
+            <div class="form-group">
+                <p>How would you describe your current activity level?</p>
+
+                <select class="custom-select" name="dropdown" id="dropdown">
+                    <option value="" selected disabled>Select activity level</option>
+
+                    <option value="sedentary">Sedentary &mdash; little or no exercise</option>
+                    <option value="light">Light &mdash; exercise 1-3 times/week</option>
+                    <option value="moderate">Moderate &mdash; exercise 4-5 times/week</option>
+                    <option value="active">Active &mdash; daily exercise or intense exercise 3-4 times/week</option>
+                    <option value="very-active">Very Active &mdash; intense exercise 6-7 times/week</option>
+                    <option value="extra-active">Extra Active &mdash; very intense daily exercise or physical job
+                    </option>
+
+                </select>
+            </div>
+
+            <!-- Checkbox: Interests -->
+            <div class="form-group">
+                <p>What are you interested in?</p>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="stretching"
+                        value="stretching">
+                    <label class="custom-control-label" for="stretching">Stretching</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="yoga" value="yoga">
+                    <label class="custom-control-label" for="yoga">Yoga</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="pilates" value="pilates">
+                    <label class="custom-control-label" for="pilates">Pilates</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="heavy-lifting"
+                        value="heavy-lifting">
+                    <label class="custom-control-label" for="heavy-lifting">Heavy lifting</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="bodyweight"
+                        value="bodyweight">
+                    <label class="custom-control-label" for="bodyweight">Bodyweight training</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="calisthenics"
+                        value="calisthenics">
+                    <label class="custom-control-label" for="calisthenics">Calisthenics</label>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="prefer" id="martial-arts"
+                        value="martial-arts">
+                    <label class="custom-control-label" for="martial-arts">Martial arts</label>
+                </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+                <p>Additional comments/questions</p>
+                <textarea class="form-control" name="user-message" id="user-message" cols="30" rows="5"
+                    placeholder="Enter your comments here..."></textarea>
+            </div>
+
+            <!-- Submit -->
+            <div class="form-group">
+                <button class="btn btn-primary btn-lg btn-block" id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- FFC Tests -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
