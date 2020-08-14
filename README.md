@@ -6,4 +6,4 @@ The project was built with the following `user stories` by freeCodeCamp: [Build 
 
 ## Motivation
 
-I build the project for learning purposes, my main goal was to practice creating responsive layouts.
+I built the project for learning purposes, my main goal was to practice creating responsive layouts.
