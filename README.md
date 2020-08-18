@@ -1,5 +1,7 @@
 # Gym Contact Form
 
+Checkout the project here: https://sitek94.github.io/gym-contact-form/
+
 Responsive, mobile-first contact-form for a gym (HTML, CSS + Bootstrap)
 
 The project was built with the following `user stories` by freeCodeCamp: [Build a Survey Form](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
